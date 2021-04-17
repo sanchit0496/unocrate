@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Buenard');
+
+form{
+	text-align: center;
+}
+
+.wrapper{
+	background-image: url("../images/backgrounds/desktop.jpeg");
+	display: table;
+	background-size: cover;
+	width:100%;
+	height: 100%;
+}
+
+.login_box{
+	background-color: white;
+    margin-top: 10%;
+    margin-left: 70%;
+    border-radius: 10px;
+    opacity: 0.90;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    border: 4px solid white;
+}
+
+.login_header{
+	background-color: #85b1f7;
+	padding: 4%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+input[type='submit']{
+    background-color: teal;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    width: 70%;
+}
+
+
+input[type='text']:hover,input[type='email']:hover,input[type='password']:hover{
+	border-color:#85b1f7;
+	border-width: :20px;
+	border-style: solid;
+}
+#first form input[type='text'],input[type='email'],input[type='password']{
+	margin:8px;
+	width:95%;
+	height: 30px;
+	padding: 15px;
+	border-radius: 5px;
+}
+#second form input[type='text'],input[type='email'],input[type='password']{
+	margin:8px;
+	width:95%;
+	height: 30px;
+	padding: 15px;
+	border-radius: 5px;
+}
+#second h3{
+	color: black;
+	font-size: 28px;
+}
+.worldmap{
+	display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-top: 14%;
+    width: 60%;
+    margin-left: 2%;
+}
+h1{
+	color: white;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+
+#first{
+    height: 100%;
+    width: 20%;
+    background: white;
+    margin-left: 70%;
+    float: right;
+    background: linear-gradient(transparent, white);
+	padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.info{
+	float: left;
+	max-width: 40%;
+}
+#second{
+	float: right;
+    padding: 8% 8% 4% 8%;
+    max-width: 60%;
+}
+/*#second{
+	float: right;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 12%;
+    margin-left: 45%;
+    width: 55%;
+}*/
+.info p{
+	margin-left: 10%;
+    margin-top: 8%;
+    margin-right: -10%;
+}
+.company p{
+	font-size: 40px;
+    font-weight: 600;
+    margin-left: 8%;
+}
+.info img{
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 30%;
+    min-height: 120px;
+    min-width: 218px;
+    margin-bottom: 0%;
+}
+canvas{ 
+	display: block; 
+	vertical-align: bottom; 
+	width: 100%;
+	height: auto;
+	background-repeat: repeat-y;
+	} 
+
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+	background-image: url("../images/backgrounds/desktop.jpeg") center center fixed;
+	position:absolute; 
+	width: 100%; 
+	height: 100%; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: 50% 50%; 
+} 
+
+.company{
+	color: white; 
+	margin-top: 35px;
+	color: white;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	width:100%;
+}
+
+#second h3{
+	color:#563d7c;
+}
+
+.infoline{
+	margin-left: 15%;
+    margin-bottom: 3.5%;
+    margin-right: -10%;
+    background-color: white;
+    color: #563d7c;
+    font-weight: 400;
+    font-size: 125%;
+	font-family: 'Buenard', sans-serif;
+}
+
+@media only screen and (min-width:120px) and  (max-width:767px)   {
+
+#first{
+	margin-left:10%;
+	width:80%;
+	background:none;
+    margin-top:-30%;
+}
+.company p{
+font-size:300%;
+font-weight:600;
+display:block;
+text-align:center;	
+margin-left: 0%;
+}
+#first form input[type='text'],input[type='email'],input[type='password']{
+	margin:8px;
+	width:95%;
+	height: 0px;
+	padding: 25px;
+	border-radius: 5px;
+}
+input[type='submit']{
+	width:85%;
+	padding:5px;
+}
+#second{
+	height:60%;
+}
+#second form input[type='text'],input[type='email'],input[type='password']{
+	margin:8px;
+	width:95%;
+	height: 30px;
+	padding: 18px;
+}
+.wrapper{
+	background-color: #283563;
+}
+#particles-js{ 
+	background-color:#283563
+}
+
+.info{
+	display:none;
+}
+
+.info img{
+	max-height:25%;
+	width:100%;
+	display:block;
+	align:center;
+	margin-top:15%;
+	margin-left:5%;
+}
+
+#second{
+	width:100%;
+	margin-right:21%;
+}
+
+#second h3{
+font-size:175%;
+color:#563d7c;
+width:100%;
+}
+
+
+
+ }
+
